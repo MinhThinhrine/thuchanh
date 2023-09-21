@@ -1,0 +1,92 @@
+layout{
+    padding-top: 50px;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+}
+header{
+    text-align: center;
+    padding: 10px;
+    border: solid;
+}
+nav{
+    text-align: center;
+    padding-top: 10px;
+    border: solid;
+    border-top: none;
+}
+index{
+    text-align:center  ;
+    padding: 80px 0px ;
+    border-left: solid;
+    border-right: solid;
+    float: left;
+    width: 20%;
+}
+section{
+    border-right: solid;
+    border-left: solid;
+    padding: 80px;
+}
+section p{
+    padding-left: 40%;
+}
+footer{
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    border: solid;
+}
+service{
+    text-align: center;
+    font-size: 40px;
+    width: 900px;
+    color: white;
+}
+service header{
+    background-color: #CD950C;
+    border-color: black;
+}
+service nav{
+    background-color: #A9A9A9;
+    height: 330px;
+    margin-top: 20px;
+    border-color: black;
+    padding-top: 70px;
+}
+#name {
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    font-size: 50px;
+}
+service ser{
+    width: 900px;
+    height: 500px;
+    border-color: black;
+
+}
+service ser div{
+    font-size: 30px;
+    width: 180px;
+    height: 140px;
+    margin: 130px;
+    padding-top: 80px;
+    float: left;
+    background-color: #A9A9A9;
+    text-align: center;
+    border: solid;
+    border-color: black;
+}
+service footer{
+    background-color: #006699;
+    height: 120px;
+    float: left;
+    width: 100%;
+    border-color: black;
+}
+service footer p{
+    margin: 10px;
+}
+
+
