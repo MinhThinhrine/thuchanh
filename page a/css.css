@@ -1,0 +1,13 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+.page{
+    width: 760px;
+}
+.pixfort_normal_1{
+    height: 60px;
+}
+#section_normal_1 .one-third column alpha{
+float: right
+}
