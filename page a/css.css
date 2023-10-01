@@ -1,13 +1,164 @@
 body{
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-.page{
-    width: 760px;
+#page .page{
+    width: 1890px;
+
 }
-.pixfort_normal_1{
+#section_normal_1 .container{
+    width: 1200px;
     height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-#section_normal_1 .one-third column alpha{
-float: right
+#section_normal_1 .container .one-third{
+    width: 175px;
+    height: 60px;
+    padding: 10px;
+    float: left;
+    margin-left: 130px;
 }
+#section_normal_1 .container .two-thirds{
+    width: 360px;
+    height: 40px;
+    margin: 10px;
+    float: right;
+}
+#section_normal_1 .container .two-thirds .htext_style{
+    float: left;
+    margin-top: 5px;
+    padding-right: 25px;
+    color: #838383;
+}
+#section_normal_4_2 .container{
+    background-color: #333333;
+}
+#section_normal_4_2 .container .sixteen {
+    width: 100%;
+    height: 500px;
+}
+
+#section_normal_4_2 .container .sixteen .columns{
+    margin-left: 735px;
+    height: 60px;
+    width: 450px;
+}
+#section_normal_4_2 .container .sixteen .columns .eight .columns .omega{
+    background-color: black;
+    color: white;
+}
+#section_normal_4_2 .container .sixteen .eight .img_style{
+    margin: 65px;
+    width: 400px;
+    margin-left: -430px;
+}
+#section_normal_4_2 .container .sixteen .eight .big_text{
+    color: #2dc0e8;
+    font-size: 22px;
+    font-family: "Yu Gothic UI Semibold";
+}
+#section_normal_4_2 .container .sixteen .eight .big_title {
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+#section_normal_4_2 .container .sixteen .eight .normal_text {
+    color: #909090;
+    font-size: 18px;
+    font-family: Calibri;
+    margin: 10px 0px;
+    margin-bottom: 35px;
+
+}
+#section_normal_4_2 .container .sixteen .eight .pix_button {
+    background-color: #2dc0e8;
+    padding: 15px 25px;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-family: "Rockwell Extra Bold";
+    font-weight: bold;
+}
+#section_normal_6 .envato_unbounce .container{
+    font-family: Calibri;
+    height: 300px;
+    background-color: #eeeeee;
+}
+#section_normal_6 .envato_unbounce .container .L1_style{
+    color: #696969;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 0;
+
+}
+#section_normal_6 .envato_unbounce .container .L2_style{
+    text-align: center;
+    color: #aeaeae;
+    font-size: 20px;
+    margin: 5px 0px 30px;
+    font-weight: normal;
+}
+#section_normal_6 .envato_unbounce .container .alpha{
+    width: 570px;
+    height: 145px;
+    float: left;
+    margin-left: 280px;
+}
+#section_normal_6 .envato_unbounce .container .alpha .pix_builder_bg{
+    height: 145px;
+}
+#section_normal_6 .envato_unbounce .container .alpha .pix_builder_bg .editContent{
+
+}
+#section_normal_6 .envato_unbounce .container .alpha .b_style{
+    height: 120px;
+    width: 90px;
+    float: left;
+    background-color: #f5f5f5;
+    border-radius: 3%;
+}
+#section_normal_6 .envato_unbounce .container .alpha .b_style .logo_style{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 20px 15px;
+    margin-top: 12px;
+}
+#section_normal_6 .envato_unbounce .container .alpha .txt_style{
+    border-radius: 3%;
+    background-color: white;
+    height: 120px;
+}
+#section_normal_6 .envato_unbounce .container .alpha .txt_style .editContent{
+    width: 420px;
+    font-size: 20px;
+    color: #8b8b8b;
+    padding: 20px 0px 0px 110px;
+    margin-bottom: 15px;
+}
+#section_normal_6 .envato_unbounce .container .alpha .txt_style .stars_span{
+    margin: 20px;
+}
+#section_normal_6 .envato_unbounce .container .alpha .txt_style .stars_span .env_st{
+    padding: 0;
+    margin-top: -30px;
+    color: #69acfc;
+    font-size: 18px;
+}
+#section_normal_6 .envato_unbounce .container .omega{
+    float: right;
+}
+#section_normal_6 .envato_unbounce .container .omega .editContent{
+    width: 360px;
+    height: 80px;
+}
+
+
+
+
+
