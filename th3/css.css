@@ -1,0 +1,55 @@
+body{
+    margin: 0  ;
+    padding: 0;
+}
+#container #menu{
+    margin: 0  ;
+    padding: 0;
+    height: 80px;
+    width: 800px;
+    background-color: #eeeeee;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: solid 5px #8b0000;
+    border-bottom: solid 3px #8b0000;
+}
+#menu .menu-item{
+    float: left;
+    padding: 31px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+#menu .menu-item:hover{
+    background-color: #8b0000;
+    color: white;
+}
+
+#menu .menu-mini{
+    display: none;
+    position: absolute;
+    background-color: #eeeeee;
+    margin: 49px 0px 10px -31px;
+    margin: 49px 0px 10px -31px;
+    border-top: solid #8b0000;
+}
+#menu .menu-mini a{
+    color: black;
+    width: 170px;
+    display: block;
+    padding: 20px;
+    border-bottom: solid #bebebe;
+}
+#menu .main{
+    margin: -31px;
+}
+#menu .menu-item:hover .menu-mini{
+    display: block;
+}
+#menu .menu-mini a:hover{
+    background-color: #bbbbbb;
+}
+
+
+
+
