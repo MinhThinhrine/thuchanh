@@ -1,0 +1,286 @@
+
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    border: solid 15px #dfdfdf;
+    font-family: Arial;
+    border-radius: 10px;
+}
+#container{
+    padding:30px 0px 30px 50px;
+    width: 450px;
+}
+#container .acc{
+    color: #7ed321;
+    font-weight: bold;
+}
+#name{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    color: #c4c4c4;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+}
+#name .txt{
+    background-color: #f9f9f9;
+    border: none;
+    padding: 11px;
+}
+#name .fa{
+    margin: 4px;
+    padding: 8px 12px 8px 12px;
+    border-right: solid 1px #e7e7e7;
+}
+/*mail*/
+#email{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    color: #c4c4c4;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+#email .txt{
+    background-color: #f9f9f9;
+    border: none;
+    padding: 10px;
+}
+#email .fa{
+    margin: 4px;
+    padding: 8px 12px 8px 12px;
+    border-right: solid 1px #e7e7e7;
+}
+/*pass*/
+#pass{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    color: #c4c4c4;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+}
+#pass .txt{
+    background-color: #f9f9f9;
+    border: none;
+    padding: 11px;
+}
+#pass .fa{
+    margin: 4px;
+    padding: 8px 12px 8px 12px;
+    border-right: solid 1px #e7e7e7;
+}
+/*date*/
+#container .date{
+    color: #7ed321;
+    font-weight: bold;
+}
+#birth .d{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    width: 45px;
+    color: #c4c4c4;
+    border-radius: 3px;
+    padding-left: 15px;
+    margin-right: 5px;
+}
+#birth .m{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    width: 45px;
+    color: #c4c4c4;
+    border-radius: 3px;
+    padding-left: 15px;
+    margin-right: 5px;
+}
+#birth .y{
+     background-color: #f9f9f9;
+     border: solid 1px #e7e7e7;
+     height: 40px;
+     width: 55px;
+     color: #c4c4c4;
+     border-radius: 3px;
+     padding-left: 15px;
+     margin-right: 10px;
+ }
+/*grender*/
+#container .grender{
+    color: #7ed321;
+    font-weight: bold;
+}
+#birth .male{
+    height: 40px;
+    width: 110px;
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    color: #c4c4c4;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-right: -10px;
+}
+#birth .female{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    width: 110px;
+    color: #c4c4c4;
+    border-radius: 3px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+#birth{
+    width: 470px;
+}
+#left{
+    width: 235px;
+    float: left;
+}
+#right{
+    float: left;
+    width: 235px;
+}
+
+#pay .detail{
+    color: #7ed321;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 150px;
+}
+/*credit*/
+#pay .credit{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    color: #c4c4c4;
+    border-radius: 3px;
+    height: 40px;
+    width: 225px;
+    text-align: center;
+}
+#pay .fa{
+    padding: 12px 0px 12px 20px;
+}
+#pay .btn{
+    border: none;
+    background-color: #f9f9f9;
+    color: #c4c4c4;
+}
+/*paypal*/
+#pay .paypal{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    color: #c4c4c4;
+    border-radius: 3px;
+    height: 40px;
+    width: 225px;
+    text-align: center;
+    float: right;
+}
+#pay .fa{
+    padding: 12px 0px 12px 20px;
+}
+#pay .btn{
+    border: none;
+    background-color: #f9f9f9;
+    color: #c4c4c4;
+}
+/**/
+#pay .paypal:hover{
+    background-color: #7ed321;
+}
+#pay .paypal:hover .btn{
+    background-color: #7ed321;
+    color: white;
+}
+#pay .paypal:hover .fa{
+    color: white;
+}
+/**/
+#pay .credit:hover{
+    background-color: #7ed321;
+}
+#pay .credit:hover .btn{
+    background-color: #7ed321;
+    color: white;
+}
+#pay .credit:hover .fa{
+    color: white;
+}
+/*number*/
+#number{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    color: #c4c4c4;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+#number .num{
+    background-color: #f9f9f9;
+    border: none;
+    padding: 10px;
+}
+#number .fa{
+    margin: 4px;
+    padding: 8px 12px 8px 12px;
+    border-right: solid 1px #e7e7e7;
+}
+/*date card*/
+.cardcvc{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    color: #c4c4c4;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 210px;
+    float: left;
+}
+.cardcvc .cvc{
+    width: 100px;
+    background-color: #f9f9f9;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.cardcvc .fa{
+    margin: 4px;
+    padding: 8px 12px 8px 12px;
+    border-right: solid 1px #e7e7e7;
+}
+.ngay {
+    width: 210px;
+    float: left;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.ngay .pickdate{
+    background-color: #f9f9f9;
+    border: solid 1px #e7e7e7;
+    height: 40px;
+    color: black;
+    width: 195px;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+#foot{
+    color: #7ed321;
+    font-weight: bold;
+    width: 450px;
+    float: left;
+}
+#accept{
+    color: #c4c4c4;
+
+    margin-top: 85px;
+}
+#foot .ck{
+    width: 450px;
+}
