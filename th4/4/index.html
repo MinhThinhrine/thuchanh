@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Đếm số lần xuất hiện</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      text-align: center;
+    }
+
+    textarea {
+      height: 200px;
+      width: 500px;
+      margin-bottom: 10px;
+    }
+    input{
+      margin-bottom: 10px;
+      height: 70px;
+      width: 250px;
+      padding: 20px;
+    }
+    button {
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+<h1>Đếm số lần xuất hiện của B trong A</h1>
+
+<textarea id="textA" rows="5" cols="50"></textarea>
+<br>
+<input type="text" id="textB" placeholder="Nhập dòng B">
+<br>
+<button onclick="countOccurrences()">Đếm số lần xuất hiện</button>
+<br>
+<p id="result"></p>
+
+<script src="js.js"></script>
+</body>
+</html>
