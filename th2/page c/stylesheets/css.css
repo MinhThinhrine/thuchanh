@@ -45,7 +45,7 @@ input {
 
 .six {
     flex: 6;
-    border: solid #ebeaea 20px;
+    border: solid #ebeaea 19px;
 }
 .six .pix_builder_bg{
     color: black;
