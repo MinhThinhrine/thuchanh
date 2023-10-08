@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+:root {
+    --light-yellow-color: #f1c232;
+}
+
+
+/* ======= Common ====== */
+.container {
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+
+.text_span {
+    color: var(--light-yellow-color);
+}
+
+.ten {
+    flex: 10;
+}
+
+.six {
+    flex: 6;
+    border: solid #ebeaea 20px;
+}
+.six .pix_builder_bg{
+    color: black;
+    background-color:#ebeaea;
+}
+
+#contact_form .pix_text{
+    margin: 20px;
+    border: none;
+    border-radius: unset;
+}
+.send_btn #submit_btn_6{
+    margin-left: 150px;
+    background-color: #7dc576;
+}
+/* =============== Navbar header ============= */
+
+#section_header_2_dark {
+    background: #333;
+}
+
+#hidden_pix_1,
+#hidden_pix_6 {
+    display: none;
+}
+
+.containerss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.sr-only {
+    display: none;
+}
+
+#navbar-collapse-02 .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+#navbar-collapse-02 .nav a {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+#navbar-collapse-02 .nav span {
+    font-size: 1.8rem;
+}
+
+.section_video {
+    width: 100%;
+}
+
+.section_video video {
+    width: 100%;
+}
+
+.creative_header {
+    position: relative;
+}
+
+.section_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.section_wrapper .container {
+    width: 100%;
+    height: 100%;
+}
+
+.section_wrapper .sixteen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.section_wrapper .title_style {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.section_wrapper .subtitle_style {
+    display: inline-block;
+    width: 760px;
+    font-size: 2.4rem;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.section_wrapper .email_subscribe {
+    font-size: 2em;
+    background: #000;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+#contact_form button,
+#contact_form input {
+    font-size: 1.8rem;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#contact_form input {
+    width: 360px;
+}
+
+#contact_form button {
+    background: var(--light-yellow-color);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+#contact_form button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.sixteen .note_st {
+    margin-top: 32px;
+    font-size: 1.8rem;
+    color: #eee;
+}
+
+.join_us_section .sixteen {
+    display: flex;
+}
+
+.join_us_section .zone_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join_us_section .psingle_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
