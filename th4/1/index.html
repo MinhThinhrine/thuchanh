@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js.js"></script>
+    <title>Title</title>
+  <style>
+    body{
+      width: 100%;
+        height: 722px;
+      float: left;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #container{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .color{
+      cursor: pointer;
+      width: 250px;
+      border: solid ;
+      margin: 30px;
+      padding: 40px;
+      font-size: 30px;
+      color: black;
+      border-radius: 10px;
+    }
+    #red{
+      background-color: red;
+    }
+    #yellow{
+      background-color: yellow;
+    }
+    #blue{
+      background-color: blue;
+    }
+    #green{
+      background-color: green;
+    }
+    #purple{
+      background-color: purple;
+    }
+    #orange{
+      background-color: orange;
+    }
+
+  </style>
+</head>
+<body>
+<div id="container">
+  <button  type="button"  onclick="red()" id="red" class="color" >Red</button>
+  <button  type="button"  onclick="yellow()"  id="yellow" class="color" >Yellow</button>
+  <button  type="button" onclick="blue()"  id="blue" class="color" >Blue</button>
+  <button  type="button"  onclick="green()" id="green" class="color" >Green</button>
+  <button type="button"  onclick="purple()"  id="purple" class="color" >Purple</button>
+  <button type="button"  onclick="orange()"  id="orange" class="color" >Orange</button>
+</div>
+</body>
+</html>
